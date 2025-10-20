@@ -1,0 +1,4 @@
+# IOT WiFi Python Dependencies
+bottle==0.12.25
+pydantic==2.5.0
+typing-extensions==4.8.0
