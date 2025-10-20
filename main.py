@@ -137,7 +137,7 @@ def main():
     logger.info("Starting IOT WiFi Python version...")
     
     # Get configuration
-    config_path = os.getenv('IOTWIFI_CFG', 'cfg/wificfg.json')
+    config_path = os.getenv('IOTWIFI_CFG', '/cfg/wificfg.json')
     port = int(os.getenv('IOTWIFI_PORT', '8080'))
     
     try:
